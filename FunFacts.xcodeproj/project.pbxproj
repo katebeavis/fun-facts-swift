@@ -14,6 +14,7 @@
 		BE2FBBED1B2732C70032888F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2FBBEB1B2732C70032888F /* LaunchScreen.xib */; };
 		BE2FBBF91B2732C70032888F /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FBBF81B2732C70032888F /* FunFactsTests.swift */; };
 		BE2FBC031B2761740032888F /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FBC021B2761740032888F /* FactBook.swift */; };
+		BE2FBC051B27857B0032888F /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FBC041B27857B0032888F /* ColourWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BE2FBBF71B2732C70032888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE2FBBF81B2732C70032888F /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		BE2FBC021B2761740032888F /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		BE2FBC041B27857B0032888F /* ColourWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				BE2FBC021B2761740032888F /* FactBook.swift */,
 				BE2FBBE41B2732C70032888F /* ViewController.swift */,
 				BE2FBBE61B2732C70032888F /* Main.storyboard */,
+				BE2FBC041B27857B0032888F /* ColourWheel.swift */,
 				BE2FBBE91B2732C70032888F /* Images.xcassets */,
 				BE2FBBEB1B2732C70032888F /* LaunchScreen.xib */,
 				BE2FBBE01B2732C70032888F /* Supporting Files */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2FBC031B2761740032888F /* FactBook.swift in Sources */,
+				BE2FBC051B27857B0032888F /* ColourWheel.swift in Sources */,
 				BE2FBBE51B2732C70032888F /* ViewController.swift in Sources */,
 				BE2FBBE31B2732C70032888F /* AppDelegate.swift in Sources */,
 			);

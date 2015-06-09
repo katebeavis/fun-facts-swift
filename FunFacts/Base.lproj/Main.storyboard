@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An interesting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RP-4I-xLz">
-                                <rect key="frame" x="35" y="199" width="250" height="28.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RP-4I-xLz">
+                                <rect key="frame" x="35" y="199" width="250" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="222" id="Dkd-0l-b77"/>
+                                    <constraint firstAttribute="width" constant="250" id="Dkd-0l-b77"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,9 +34,8 @@
                                     <constraint firstAttribute="height" constant="61" id="nET-kU-F6Q"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.052402972239999998" green="0.79583933029999998" blue="0.92499210860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show another fun fact">
-                                    <color key="titleColor" red="0.052402972239999998" green="0.79583933029999998" blue="0.92499210860000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -57,14 +56,15 @@
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tcR-u7-ia9" secondAttribute="bottom" constant="59" id="4VP-9M-Dez"/>
                             <constraint firstItem="bwd-cm-L76" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="HVt-hq-nH7"/>
-                            <constraint firstItem="6RP-4I-xLz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="cog-fw-wH4"/>
-                            <constraint firstItem="6RP-4I-xLz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="180" id="gEQ-4q-Q5E"/>
+                            <constraint firstItem="6RP-4I-xLz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="19" id="cog-fw-wH4"/>
+                            <constraint firstItem="6RP-4I-xLz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="179" id="gEQ-4q-Q5E"/>
                             <constraint firstItem="bwd-cm-L76" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="87" id="hw3-pH-4fW"/>
                             <constraint firstItem="tcR-u7-ia9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="36" id="qRc-wT-zh4"/>
                             <constraint firstItem="bwd-cm-L76" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="yGB-6S-4NL"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="tcR-u7-ia9" id="f99-zK-RZJ"/>
                         <outlet property="funFactLabel" destination="6RP-4I-xLz" id="Z5N-Ie-bjd"/>
                     </connections>
                 </viewController>
