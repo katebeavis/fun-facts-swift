@@ -13,6 +13,7 @@
 		BE2FBBEA1B2732C70032888F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2FBBE91B2732C70032888F /* Images.xcassets */; };
 		BE2FBBED1B2732C70032888F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2FBBEB1B2732C70032888F /* LaunchScreen.xib */; };
 		BE2FBBF91B2732C70032888F /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FBBF81B2732C70032888F /* FunFactsTests.swift */; };
+		BE2FBC031B2761740032888F /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2FBC021B2761740032888F /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BE2FBBF21B2732C70032888F /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2FBBF71B2732C70032888F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE2FBBF81B2732C70032888F /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		BE2FBC021B2761740032888F /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BE2FBBE21B2732C70032888F /* AppDelegate.swift */,
+				BE2FBC021B2761740032888F /* FactBook.swift */,
 				BE2FBBE41B2732C70032888F /* ViewController.swift */,
 				BE2FBBE61B2732C70032888F /* Main.storyboard */,
 				BE2FBBE91B2732C70032888F /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2FBC031B2761740032888F /* FactBook.swift in Sources */,
 				BE2FBBE51B2732C70032888F /* ViewController.swift in Sources */,
 				BE2FBBE31B2732C70032888F /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				BE2FBBFE1B2732C70032888F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE2FBBFF1B2732C70032888F /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				BE2FBC011B2732C70032888F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
