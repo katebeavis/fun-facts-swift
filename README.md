@@ -3,7 +3,7 @@ Fun facts is an iphone native app built in Swift with Xcode which uses the MVC d
 
 Fun facts displays a random fact from a selection of 10 that are hardcoded into the app. When the 'Show another fun fact' button is pressed, another fact is displayed, and the background colour and button text colour change to a random colour.
 
-I enjoyed working in Swift as the syntax is quite similar to Javascript! The main difficuty I faced was the not being able to find an easy way to test it. For that reason I choose not to test it as I wanted this exercise to be most about learning the basics of the language.
+I enjoyed working in Swift as the syntax is quite similar to Javascript! The main difficulty I faced was not being able to find an easy way to test it. For that reason I choose not to as I wanted this exercise to be mostly about learning the basics of the language.
 
 ##Screenshots
 <div align="center">
