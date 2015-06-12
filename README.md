@@ -19,5 +19,5 @@ You must have Xcode installed
 ```
 $ git clone https://github.com/katebeavis/fun-facts-swift.git
 $ cd fun-facts-swift
-Open Xcode and click on the 'play' button to start the ios simulator
+Open Xcode and click on the 'play' button to start the iOS simulator
 ```
