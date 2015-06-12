@@ -1,5 +1,5 @@
 # Fun Facts
-Fun facts is an iphone native app built in Swift with Xcode. It uses the MVC design pattern. This was my first project in Swift which I built to get an understanding of the basics of the Swift language and how to work with Xcode.
+Fun facts is an iphone native app built in Swift with Xcode which uses the MVC design pattern. This was my first project in Swift which I built to get an understanding of the basics of the Swift language and how to work with Xcode.
 
 Fun facts displays a random fact from a selection of 10 that are hardcoded into the app. When the 'Show another fun fact' button is pressed, another fact is displayed, and the background colour and button text colour change to a random colour.
 
